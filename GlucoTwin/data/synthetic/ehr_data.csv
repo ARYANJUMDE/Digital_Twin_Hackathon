@@ -1,0 +1,51 @@
+patient_id,age,sex,bmi,hba1c,diabetes_status,hypertension,cholesterol,medication,diabetes_duration_years,family_risk_score
+PAT-001,60,F,27.6,5.8,Pre-Diabetes,0,Normal,None,0.9,0.18
+PAT-002,73,F,26.4,5.9,Pre-Diabetes,0,High,Metformin,2.0,0.82
+PAT-003,50,F,34.4,7.0,Type 1,1,High,Insulin,2.9,0.5
+PAT-004,36,M,24.0,5.2,No Diabetes,0,Normal,None,0.0,0.76
+PAT-005,64,M,32.7,6.7,Type 2,0,Normal,Metformin,4.1,0.36
+PAT-006,29,F,30.0,6.0,Pre-Diabetes,0,High,None,2.2,0.82
+PAT-007,42,M,23.3,5.7,Pre-Diabetes,0,Normal,None,1.1,0.41
+PAT-008,60,M,28.1,6.2,Pre-Diabetes,1,High,Metformin,1.1,0.11
+PAT-009,40,M,33.4,6.3,Pre-Diabetes,0,High,None,2.4,0.82
+PAT-010,44,M,32.5,6.4,Pre-Diabetes,1,High,None,2.6,0.17
+PAT-011,32,F,36.0,6.9,Type 2,1,Normal,Metformin+DPP4,2.8,0.36
+PAT-012,32,M,30.2,6.1,Pre-Diabetes,1,High,None,1.2,0.86
+PAT-013,45,F,45.0,8.5,Type 2,1,Normal,Insulin,8.5,0.86
+PAT-014,74,M,23.9,5.6,No Diabetes,1,Normal,None,0.0,0.56
+PAT-015,57,F,26.5,5.7,Pre-Diabetes,1,High,Metformin,2.1,0.61
+PAT-016,61,F,28.2,6.8,Type 2,0,Normal,Metformin+DPP4,12.0,0.46
+PAT-017,45,M,21.4,5.0,No Diabetes,0,High,None,0.0,0.33
+PAT-018,24,F,33.7,7.0,Type 2,1,High,Metformin,14.7,0.36
+PAT-019,43,F,33.0,7.3,Type 2,1,Normal,Metformin,13.3,0.64
+PAT-020,74,F,28.6,7.4,Type 2,1,Normal,Insulin,19.1,0.7
+PAT-021,23,F,25.8,5.0,No Diabetes,0,Normal,None,0.0,0.73
+PAT-022,45,F,21.0,5.3,No Diabetes,0,Normal,None,0.0,0.73
+PAT-023,65,F,24.6,5.8,Pre-Diabetes,0,Normal,Metformin,1.4,0.17
+PAT-024,51,M,32.2,7.1,Type 1,1,High,Insulin,18.6,0.5
+PAT-025,59,M,27.4,7.1,Type 2,1,Normal,Insulin,19.3,0.15
+PAT-026,23,M,26.4,5.9,Pre-Diabetes,0,Normal,Metformin,1.2,0.54
+PAT-027,42,M,31.0,6.4,Pre-Diabetes,1,High,None,2.6,0.45
+PAT-028,54,M,34.3,6.8,Type 2,0,Normal,Metformin,11.6,0.81
+PAT-029,33,M,29.8,6.4,Pre-Diabetes,1,High,Metformin,2.2,0.38
+PAT-030,43,F,30.1,5.7,Pre-Diabetes,1,Normal,None,0.7,0.19
+PAT-031,65,M,35.4,7.6,Type 2,1,Normal,Insulin,3.7,0.21
+PAT-032,46,M,29.4,5.8,Pre-Diabetes,0,High,None,2.7,0.71
+PAT-033,70,F,27.0,6.8,Type 2,0,High,Metformin+DPP4,14.3,0.59
+PAT-034,48,M,31.9,6.5,Type 2,1,High,Metformin,16.4,0.18
+PAT-035,63,F,27.2,6.1,Pre-Diabetes,0,High,Metformin,2.7,0.17
+PAT-036,49,M,26.7,5.5,No Diabetes,0,High,None,0.0,0.66
+PAT-037,37,F,34.9,6.5,Type 2,0,Normal,Metformin+DPP4,10.5,0.16
+PAT-038,36,F,27.0,6.0,Pre-Diabetes,0,Normal,Metformin,2.1,0.76
+PAT-039,68,M,18.5,5.9,Pre-Diabetes,0,High,Metformin,2.5,0.66
+PAT-040,72,M,30.2,7.1,Type 2,1,High,Metformin,8.1,0.17
+PAT-041,65,F,26.5,7.0,Type 1,0,High,Insulin,12.0,0.17
+PAT-042,73,F,27.1,7.8,Type 1,0,Normal,Insulin,9.8,0.89
+PAT-043,24,F,30.8,5.8,Pre-Diabetes,1,Normal,None,1.2,0.4
+PAT-044,58,F,27.7,6.2,Pre-Diabetes,0,High,None,0.6,0.4
+PAT-045,72,M,29.6,6.1,Pre-Diabetes,1,Normal,None,2.6,0.75
+PAT-046,28,M,18.5,5.2,No Diabetes,0,High,None,0.0,0.86
+PAT-047,42,M,23.8,6.1,Pre-Diabetes,0,High,None,0.8,0.89
+PAT-048,30,F,35.5,6.2,Pre-Diabetes,1,Normal,None,2.4,0.7
+PAT-049,60,F,28.4,6.7,Type 2,1,High,Metformin+DPP4,2.6,0.4
+PAT-050,39,M,20.1,5.6,No Diabetes,0,High,None,0.0,0.17

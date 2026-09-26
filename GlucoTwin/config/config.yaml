@@ -1,0 +1,52 @@
+# GlucoTwin System Configuration
+
+project:
+  name: "GlucoTwin"
+  version: "1.0.0"
+  description: "Digital Twin for Early Glucose Spike Prediction"
+
+paths:
+  raw_dir: "data/raw"
+  synthetic_dir: "data/synthetic"
+  processed_dir: "data/processed"
+  models_dir: "models"
+  
+  ehr_file: "data/synthetic/ehr_data.csv"
+  wearable_file: "data/synthetic/wearable_data.csv"
+  processed_data_file: "data/processed/featured_data.csv"
+  
+  best_model_file: "models/best_model.pkl"
+  preprocessor_file: "models/preprocessor.pkl"
+  metrics_file: "models/metrics.json"
+
+synthetic_generation:
+  n_patients: 50
+  days_per_patient: 14
+  interval_minutes: 15
+  random_seed: 42
+
+prediction:
+  spike_threshold_mgdl: 40.0
+  prediction_horizon_hours: 2.0
+  prediction_horizon_steps: 8  # 2 hours / 15 min = 8 intervals
+
+features:
+  rolling_windows_hours: [1, 2, 4]
+  lags_count: 4
+
+models:
+  test_size: 0.2
+  val_size: 0.1
+  random_state: 42
+  logistic_regression:
+    max_iter: 1000
+    C: 1.0
+  random_forest:
+    n_estimators: 100
+    max_depth: 10
+    random_state: 42
+  xgboost:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.05
+    random_state: 42
