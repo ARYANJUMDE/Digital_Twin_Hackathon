@@ -1,12 +1,4 @@
 # 🧬 GlucoTwin — Healthcare Digital Twin for Glucose Spike Prediction
-
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-ff4b4b.svg)](https://streamlit.io/)
-[![XGBoost](https://img.shields.io/badge/ML-XGBoost-orange.svg)](https://xgboost.readthedocs.io/)
-
-> **This is a research proof-of-concept and is not intended for medical diagnosis, treatment, or clinical decision-making.**
-
 ---
 
 ## 🎯 Problem Statement & Healthcare Use Case
@@ -224,13 +216,3 @@ pytest
 ```
 
 ---
-
-## 📜 Healthcare Disclaimer
-
-> **This is a research proof-of-concept and is not intended for medical diagnosis, treatment, or clinical decision-making.**
-
----
-
-## ⚖️ License
-
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
