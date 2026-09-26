@@ -25,7 +25,7 @@
    * Complete `DigitalTwin` Python class with state tracking, sequential sensor updates (`update_sensor_data`), SHAP feature attribution (`explain_prediction`), and what-if scenario simulation (`simulate`).
 
 5. **Interactive Clinician Dashboard**:
-   * Built using Streamlit and Plotly.
+   * Built using React, Vite, and Recharts.
    * Features interactive signal charts, risk gauge, SHAP driver breakdown, What-if sliders, event timeline, and live sequential sensor streaming.
 
 ---

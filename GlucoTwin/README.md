@@ -1,4 +1,12 @@
 # 🧬 GlucoTwin — Healthcare Digital Twin for Glucose Spike Prediction
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![React](https://img.shields.io/badge/Frontend-React-61dafb.svg)](https://react.dev/)
+[![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
+[![XGBoost](https://img.shields.io/badge/ML-XGBoost-orange.svg)](https://xgboost.readthedocs.io/)
+
+> **This is a research proof-of-concept and is not intended for medical diagnosis, treatment, or clinical decision-making.**
+
 ---
 
 ## 🎯 Problem Statement & Healthcare Use Case
@@ -47,6 +55,8 @@ GlucoTwin/
 │   ├── preprocessor.pkl
 │   └── metrics.json
 ├── src/
+│   ├── api/
+│   │   └── main.py
 │   ├── data/
 │   │   ├── generate_synthetic.py
 │   │   └── process.py
@@ -62,16 +72,10 @@ GlucoTwin/
 │   └── utils/
 │       ├── logger.py
 │       └── config_loader.py
-├── dashboard/
-│   ├── app.py
-│   └── components/
-│       ├── patient_view.py
-│       ├── twin_view.py
-│       ├── charts.py
-│       ├── prediction_view.py
-│       ├── explainer_view.py
-│       ├── simulation_view.py
-│       └── timeline.py
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│   └── vite.config.js
 ├── notebooks/
 │   └── exploratory_analysis.ipynb
 ├── tests/
@@ -170,9 +174,9 @@ Risk Delta: +48.3 percentage points
 
 ## 🖥️ Clinician Dashboard
 
-Built with **Streamlit** and **Plotly**, featuring 6 interactive tabs:
+Built with **React**, **Vite**, and **Recharts**, featuring 6 interactive tabs:
 1. **Twin Dashboard**: Patient EHR metrics, Digital Twin state gauges, Risk banner.
-2. **Time Series Signals**: Interactive Plotly multi-sensor streams.
+2. **Time Series Signals**: Interactive Recharts multi-sensor streams.
 3. **Spike Prediction & SHAP**: Risk probability dial + SHAP waterfall chart.
 4. **What-If Simulation**: Parameter controls + side-by-side risk comparison.
 5. **Patient Timeline**: Chronological clinical events (meals, exercise, alerts).
@@ -205,9 +209,15 @@ python -m src.data.process
 python -m src.models.train
 ```
 
-### 3. Launch Streamlit Dashboard
+### 3. Launch Backend API & React Frontend
 ```bash
-streamlit run dashboard/app.py
+# Start FastAPI backend (port 8000)
+python -m uvicorn src.api.main:app --host 127.0.0.1 --port 8000
+
+# In a new terminal, start Vite React frontend (port 5173)
+cd frontend
+npm install
+npm run dev
 ```
 
 ### 4. Run Unit Tests

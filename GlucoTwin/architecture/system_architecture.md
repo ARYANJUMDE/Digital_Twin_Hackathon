@@ -33,8 +33,8 @@ flowchart TD
     end
 
     subgraph Clinician UI & Dashboard
-        StreamlitApp[Streamlit Clinician Dashboard]
-        Plots[Plotly Interactive Signal Charts]
+        ReactApp[React Clinician Dashboard]
+        Plots[Recharts Interactive Signal Charts]
         RiskGauge[Risk Probability Gauge & Banner]
         SimUI[Side-by-Side Risk Comparison]
     end
@@ -48,9 +48,9 @@ flowchart TD
     DT --> SimEngine
     SimEngine --> MLModel
     MLModel --> RiskGauge
-    SHAPExplainer --> StreamlitApp
-    RiskGauge --> StreamlitApp
-    Plots --> StreamlitApp
+    SHAPExplainer --> ReactApp
+    RiskGauge --> ReactApp
+    Plots --> ReactApp
     SimEngine --> SimUI
 ```
 
