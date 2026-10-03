@@ -18,7 +18,7 @@
 - **Team Name:** TwinPulse AI
 - **Team Leader:** Aryan Jumde _(Role: Project Lead & Full-Stack / ML Developer)_
 - **Contact Email:** jumdearyan7@gmail.com
-- **GitHub Repository:** [https://github.com/aryanjumde/GlucoTwin]https://github.com/ARYANJUMDE/Digital_Twin_Hackathon
+- **GitHub Repository:** [https://github.com/ARYANJUMDE/Digital_Twin_Hackathon]
 
 ### 🏫 College / Incubator Information
 
