@@ -47,12 +47,12 @@
 
 All presentation decks and architectural diagrams are available in both **PDF** and **PPTX** formats within the repository:
 
-| Deliverable                        |  Format  | Repository File Link                                                                                                                                                               |
-| ---------------------------------- | :------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **GlucoTwin Project Presentation** | **PDF**  | [GlucoTwin/presentations_and_architecture/GlucoTwin.pdf](GlucoTwin/presentations_and_architecture/GlucoTwin.pdf)                                                                   |
-| **GlucoTwin Project Presentation** | **PPTX** | [GlucoTwin/presentations_and_architecture/GlucoTwin.pptx](GlucoTwin/presentations_and_architecture/GlucoTwin.pptx)                                                                 |
-| **System Architecture Diagram**    | **PDF**  | [GlucoTwin/presentations_and_architecture/Gluco Twin System Architecture.pdf](GlucoTwin/presentations_and_architecture/Gluco%20Twin%20System%20Architecture.pdf)                 |
-| **System Architecture Diagram**    | **PPTX** | [GlucoTwin/presentations_and_architecture/Gluco Twin System Architecture.pptx](GlucoTwin/presentations_and_architecture/Gluco%20Twin%20System%20Architecture.pptx)               |
+| Deliverable                        |  Format  | Repository File Link                                                                                                                                   |
+| ---------------------------------- | :------: | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **GlucoTwin Project Presentation** | **PDF**  | [presentations_and_architecture/GlucoTwin.pdf](presentations_and_architecture/GlucoTwin.pdf)                                                           |
+| **GlucoTwin Project Presentation** | **PPTX** | [presentations_and_architecture/GlucoTwin.pptx](presentations_and_architecture/GlucoTwin.pptx)                                                         |
+| **System Architecture Diagram**    | **PDF**  | [presentations_and_architecture/Gluco Twin System Architecture.pdf](presentations_and_architecture/Gluco%20Twin%20System%20Architecture.pdf)         |
+| **System Architecture Diagram**    | **PPTX** | [presentations_and_architecture/Gluco Twin System Architecture.pptx](presentations_and_architecture/Gluco%20Twin%20System%20Architecture.pptx)       |
 
 ---
 
@@ -304,7 +304,7 @@ pytest
 
 ## 📄 Open-Source License
 
-This project is licensed under the **MIT Open Source License**. See the [GlucoTwin/LICENSE](GlucoTwin/LICENSE) file for full details.
+This project is licensed under the **MIT Open Source License**. See the [LICENSE](LICENSE) file for full details.
 
 ```text
 MIT License
@@ -335,6 +335,6 @@ copies or substantial portions of the Software.
 - [x] **AI/ML Model & Framework Details:** Full benchmark matrix, zero-leakage guard, and SHAP XAI included.
 - [x] **15-20 min Demo Video:** Section added with Unlisted YouTube link placeholder and video agenda.
 - [x] **Open-source License Details:** Complete MIT license terms and file link provided.
-- [x] **Architecture Diagram (PDF/PPT):** Available and linked directly in [`presentations_and_architecture/`](GlucoTwin/presentations_and_architecture/).
-- [x] **Presentation (PDF/PPT):** Available and linked directly in [`presentations_and_architecture/`](GlucoTwin/presentations_and_architecture/).
+- [x] **Architecture Diagram (PDF/PPT):** Available and linked directly in [`presentations_and_architecture/`](presentations_and_architecture/).
+- [x] **Presentation (PDF/PPT):** Available and linked directly in [`presentations_and_architecture/`](presentations_and_architecture/).
 - [x] **Public Accessibility:** All repository code, presentations, PDFs, and links are configured for public evaluation access without permission barriers.
