@@ -1,12 +1,5 @@
 # 🧬 GlucoTwin — Healthcare Digital Twin for Glucose Spike Prediction
 
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#-open-source-license)
-[![React](https://img.shields.io/badge/Frontend-React%2018-61dafb.svg)](https://react.dev/)
-[![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
-[![XGBoost](https://img.shields.io/badge/ML-XGBoost-orange.svg)](https://xgboost.readthedocs.io/)
-[![SHAP](https://img.shields.io/badge/Explainability-SHAP-purple.svg)](https://shap.readthedocs.io/)
-
 > **Medical & Research Disclaimer:** GlucoTwin is a research proof-of-concept and simulation platform. It is designed purely for academic, research, and hackathon demonstration purposes and is not intended for real-world medical diagnosis, treatment, or clinical decision-making.
 
 ---
@@ -31,16 +24,6 @@
 ## 📹 15–20 Minute Demo Video Walkthrough
 
 > 🔗 **Unlisted YouTube Demo Link:** [**👉 CLICK HERE TO WATCH THE UNLISTED DEMO VIDEO (Paste YouTube Link Here)**](https://www.youtube.com/watch?v=YOUR_UNLISTED_VIDEO_ID)
-
-### Video Walkthrough Agenda:
-
-1. **00:00 – 03:00:** Problem Statement, Clinical Urgency & Glycemic Spikes Overview.
-2. **03:00 – 06:00:** Healthcare Digital Twin Concept & Multi-Modal Sensor Dynamics.
-3. **06:00 – 09:30:** Data Pipeline, Zero-Leakage Feature Engineering & XGBoost Model Benchmarks.
-4. **09:30 – 13:00:** Live Clinician Dashboard Demonstration (Gauges, Signals & SHAP Explanations).
-5. **13:00 – 16:30:** Interactive What-If Scenario Simulations & Risk Delta Validation.
-6. **16:30 – 19:00:** Architecture, Codebase Walkthrough, Project Outcomes & Future Roadmap.
-
 ---
 
 ## 📊 Presentation & Architecture Deliverables
@@ -321,20 +304,3 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 ```
-
----
-
-## 🌐 Public Accessibility & Compliance Checklist
-
-- [x] **Team details:** Included with Team Name (`TwinPulse AI`) and Team Lead (`Aryan Jumde`).
-- [x] **College / Incubator Information:** Included with institutional details (`Ramdeobaba University, Nagpur`).
-- [x] **Project Title:** Clearly stated (`GlucoTwin — Healthcare Digital Twin for Glucose Spike Prediction`).
-- [x] **Problem Statement:** Documented under the Problem Statement section.
-- [x] **Healthcare Use Case:** Detailed for continuous glucose monitoring & 2h spike prediction.
-- [x] **Technical Stack:** Full breakdown of backend, frontend, ML, XAI, and simulation libraries.
-- [x] **AI/ML Model & Framework Details:** Full benchmark matrix, zero-leakage guard, and SHAP XAI included.
-- [x] **15-20 min Demo Video:** Section added with Unlisted YouTube link placeholder and video agenda.
-- [x] **Open-source License Details:** Complete MIT license terms and file link provided.
-- [x] **Architecture Diagram (PDF/PPT):** Available and linked directly in [`presentations_and_architecture/`](GlucoTwin/presentations_and_architecture/).
-- [x] **Presentation (PDF/PPT):** Available and linked directly in [`presentations_and_architecture/`](GlucoTwin/presentations_and_architecture/).
-- [x] **Public Accessibility:** All repository code, presentations, PDFs, and links are configured for public evaluation access without permission barriers.
