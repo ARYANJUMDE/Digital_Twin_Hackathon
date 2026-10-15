@@ -1,4 +1,4 @@
-# 🧬 GlucoTwin — Healthcare Digital Twin for Glucose Spike Prediction
+<img width="827" height="142" alt="image" src="https://github.com/user-attachments/assets/9dccbd5a-db01-4c02-89a4-813e6dca5fb4" /># 🧬 GlucoTwin — Healthcare Digital Twin for Glucose Spike Prediction
 
 > **Medical & Research Disclaimer:** GlucoTwin is a research proof-of-concept and simulation platform. It is designed purely for academic, research, and hackathon demonstration purposes and is not intended for real-world medical diagnosis, treatment, or clinical decision-making.
 
@@ -23,7 +23,7 @@
 
 ## 📹 15–20 Minute Demo Video Walkthrough
 
-> 🔗 **Unlisted YouTube Demo Link:** [**👉 CLICK HERE TO WATCH THE UNLISTED DEMO VIDEO (Paste YouTube Link Here)**](https://www.youtube.com/watch?v=YOUR_UNLISTED_VIDEO_ID)
+> 🔗 **Unlisted YouTube Demo Link:** [**👉 CLICK HERE TO WATCH THE UNLISTED DEMO VIDEO (https://www.youtube.com/watch?v=iADk2PDoztw)**]
 ---
 
 ## 📊 Presentation & Architecture Deliverables
