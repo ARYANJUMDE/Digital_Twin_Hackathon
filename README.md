@@ -24,6 +24,7 @@
 ## 📹 15–20 Minute Demo Video Walkthrough
 
 > 🔗 **Unlisted YouTube Demo:** [▶️ Watch the GlucoTwin Demo](https://www.youtube.com/watch?v=iADk2PDoztw)
+> Please keep watch Quality as 720p
 
 ---
 
