@@ -23,7 +23,7 @@
 
 ## 📹 15–20 Minute Demo Video Walkthrough
 
-> 🔗 **Unlisted YouTube Demo Link:** [**👉 CLICK HERE TO WATCH THE UNLISTED DEMO VIDEO (https://www.youtube.com/watch?v=iADk2PDoztw)**]
+> 🔗 **Unlisted YouTube Demo Link:** [**👉 CLICK HERE TO WATCH THE UNLISTED DEMO VIDEO**](https://www.youtube.com/watch?v=iADk2PDoztw)
 ---
 
 ## 📊 Presentation & Architecture Deliverables
